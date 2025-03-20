@@ -28,4 +28,4 @@ Aqui estão algumas das tecnologias que eu mais uso:
 **Obrigado por visitar o meu perfil!**  
 Sinta-se à vontade no meu perfil e ficar à vontade para me mandar uma mensagem se você estiver interessado em colaborar em algum projeto ou apenas bater um papo sobre tecnologia. 😄
 
-![image](https://github.com/user-attachments/assets/9b4e8ed8-6043-4aeb-97ba-c97758272ce2)
+![image](https://github.com/user-attachments/assets/fc664457-9cdc-4a1f-9a91-7f753a44b010)
