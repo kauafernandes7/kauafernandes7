@@ -4,16 +4,25 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/styles.css">
     <script src="./js/script.js" defer></script>
 
     <title>Mario Jump</title>   
 </head>
 <body>
-    <div class="game-board">
-        <div id="score">Pontuação: 0</div>
+    
+<div class="game-board">
+    <div id="score">Pontuação: 0</div>
         <img src="./img/clouds.png" class="clouds"> 
         <img src="./img/pipe.png" class="pipe">
         <img src="./img/mario.gif" class="mario"> 
+
+<div id="gameOverModal" class="modal">
+    <div class="modal-content"> 
+        <h2>Game Over</h2>
+        <p id="finalScore">Pontuação: 0</p>
+    </div>
+</div>
 </body>
 </html>
