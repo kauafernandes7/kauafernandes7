@@ -24,17 +24,53 @@
 @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
 
 #score {
-    position: absolute;
+     position: absolute;
     top: 20px;
     left: 20px;
-    color: #fff;
-    font-family: 'Press Start 2P', cursive;
-    font-size: 16px;
+    color: #fff;  
+    font-family: 'Press Start 2P', cursive; 
+    font-size: 24px; 
+    text-shadow: 2px 2px 5px #000;  
     background-color: rgba(0, 0, 0, 0.5);
-    padding: 8px 12px;
+    padding: 10px;
     border-radius: 8px;
-    text-shadow: 2px 2px 0 #000;
     z-index: 10;
+}
+
+.modal {
+    display: none; 
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    z-index: 1000;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal-content {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 300px;
+}
+
+.modal-content h2 {
+    font-family: 'Press Start 2P', cursive;
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+.modal-content p {
+    font-family: 'Press Start 2P', cursive;
+    font-size: 20px;
+    color: #f1c40f;  
+    text-shadow: 2px 2px 5px #000; 
+    margin-bottom: 20px;
 }
 
 .mario{
