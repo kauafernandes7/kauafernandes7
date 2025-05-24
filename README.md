@@ -12,8 +12,8 @@ Bem-vindo ao meu perfil no GitHub! Sou um desenvolvedor apaixonado por front-end
 
 Aqui estão algumas das tecnologias que eu mais uso:
 
-- 🌐 **Frontend**: HTML, CSS, C
-- 💻 **Backend**: Python
+- 🌐 **Frontend**: HTML, CSS
+- 💻 **Backend**: Python, C
 - 🗄️ **Banco de Dados**: MySQL
 - ⚙️ **Ferramentas**: Git
   
