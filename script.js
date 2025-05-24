@@ -1,5 +1,9 @@
 const mario  = document.querySelector('.mario');
 const pipe = document.querySelector('.pipe'); 
+const scoreDisplay = document.getElementById('score');
+
+let score = 0;
+let scoreInterval;
 
 const jump = () => {
     mario.classList.add('jump');
@@ -10,6 +14,13 @@ const jump = () => {
 
     }, 500);
 }
+
+const startScore = () => {
+    scoreInterval = setInterval(() => {
+        score++;
+        scoreDisplay.textContent = `Pontuação: ${score}`;
+    }, 100);
+};
 
 const loop = setInterval(() => {
 
@@ -33,8 +44,12 @@ const loop = setInterval(() => {
         mario.style.marginLeft = '50px';
 
         clearInterval(loop);
-         
+        clearInterval(scoreInterval);
+        alert('Game Over! Pontuação final: ' + score);
+        
         }
 }, 10);
  
 document.addEventListener('keydown',jump);  
+
+window.onload = startScore;
