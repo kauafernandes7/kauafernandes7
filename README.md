@@ -21,7 +21,7 @@ Aqui estão algumas das tecnologias que eu mais uso:
 ## 📞 Como me encontrar
 
 - E-mail: kauafcanholato2@gmail.com
-- Instagram: kauafernandes7
+- Instagram: kaua.fernandes7
   
 ---
 
