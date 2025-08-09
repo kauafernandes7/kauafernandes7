@@ -4,7 +4,7 @@ Bem-vindo ao meu perfil no GitHub! Sou um desenvolvedor apaixonado por front-end
 
 ## 🚀 Sobre mim
 - 💎 Estou estudando no Senai
-- 🌱 Aprendendo atualmente: Programar banco de dados em SQL
+- 🌱 Aprendendo atualmente: Python em programação de aplicativos 
 - 👯 Procurando colaborar em: Quero ajudar meus companheiros à chegar ao topo
 - 📫 Como me encontrar: kauafcanholato2@gmail.com
 
